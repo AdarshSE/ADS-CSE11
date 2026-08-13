@@ -12,7 +12,6 @@ int precedence(char op)
         return 2;
     else if (op == '+' || op == '-')
         return 1;
-    else
         return 0;
 }
 
