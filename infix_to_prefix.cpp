@@ -65,8 +65,8 @@ while(!st.empty())
     result += st.top();
     st.pop();
 }
-reverse(result.begin(), result.end());
-return result;
+  reverse(result.begin(), result.end());
+  return result;
 }
 int main()
 {
