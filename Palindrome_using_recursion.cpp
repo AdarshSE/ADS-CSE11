@@ -12,10 +12,10 @@ bool isPalindrome(string s, int start, int end) {
 }
 
 int main() {
-    string str;
+    string s;
     cout << "Enter a string: ";
-    cin >> str;
-    if (isPalindrome(str, 0, str.length() - 1)) {
+    cin >> s;
+    if (isPalindrome(s, 0, s.length() - 1)) {
         cout << "The string is a palindrome." << endl;
     } else {
         cout << "The string is not a palindrome." << endl;
