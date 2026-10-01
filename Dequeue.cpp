@@ -104,6 +104,7 @@ int main()
     insertRear(10);
     insertRear(20);
     insertFront(5);
+    insertFront(2);
     display();
 
     deleteFront();
