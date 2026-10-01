@@ -20,7 +20,7 @@ int main() {
         return 0;
     }
     int* arr = new int[n];
-    cout<<"Enter" <<n<<" elements in sorted order: ";
+    cout<<"Enter " << n << " elements in sorted order: ";
     for(int i = 0; i < n; i++) {
         cin>>arr[i];
     }
