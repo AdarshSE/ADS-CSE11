@@ -2,7 +2,7 @@
 using namespace std;
 #define INF 999999
 
-void merge(int arr[], int p, int q, int r) {
+void merge(int arr[], int p, int q, int r) {     // p = starting index, q = middle index, r = ending index
     int n1 = q - p + 1;
     int n2 = r - q;
 
